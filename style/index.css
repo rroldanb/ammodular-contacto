@@ -2,25 +2,24 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   #bg-image-contacto {
     height: 100vh;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     background-position: center;
   }
 
 
-  /* Asegúrate de que el cuerpo y el html llenen toda la ventana de visualización */
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
   }
   
   .container {
@@ -31,7 +30,7 @@ body, html {
   
   .logos {
     display: flex;
-    gap: 20px; /* Ajusta el espacio entre las imágenes según sea necesario */
+    gap: 20px; 
   }
   
   .logo {
@@ -53,13 +52,13 @@ body, html {
     }
   }
   
-  .rotate-1 {
-    animation: rotateY 6s infinite;
+  .rot-1 {
+    animation: rotateY 8s infinite;
   }
   
-  .rotate-2 {
-    animation: rotateY 6s infinite;
-    animation-delay: 2s; /* Añade un retraso para que la segunda imagen gire después de la primera */
+  .rot-2 {
+    animation: rotateY 8s infinite;
+    animation-delay: 4s; 
   }
   
 
