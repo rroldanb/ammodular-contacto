@@ -1,16 +1,16 @@
 body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    /* overflow: hidden; */
-  }
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* overflow: hidden; */
+}
 
-  #bg-image-contacto {
-    height: 100vh;
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-position: center;
-  }
+#bg-image-contacto {
+  height: 100vh;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+}
 
 
 body, html {
@@ -39,6 +39,27 @@ body, html {
     display: block;
   }
   
-
+  /* Animaciones */
+  @keyframes rotateY {
+    0% {
+      transform: rotateY(0deg);
+    }
+    /* 50% {
+      transform: rotateY(180deg);
+    } */
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .rot-1 {
+    animation: rotateY 8s infinite;
+  }
+  
+  .rot-2 {
+    animation: rotateY 8s infinite;
+    animation-delay: 4s; 
+  }
+  
 
 
